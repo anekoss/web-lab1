@@ -1,0 +1,20 @@
+#graph{
+    text-align:right;
+    margin-right: 2%;
+}
+
+#graph img{
+    width: 35%;
+    height: 35%;
+    margin-top: 2%;
+}
+#graph img:hover{
+    background: #8BDFE2;
+    display: inline;
+    margin: 0.93%;
+    padding: 0.50% 0.50%;
+    cursor: pointer;
+    border-radius: 3%;
+    transition: .2s ease-in, ease, linear;
+    box-shadow: 0 0 0 2px #5F4393 inset, 0 0 0 4px #8BDFE2 inset;
+}

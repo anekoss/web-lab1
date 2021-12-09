@@ -1,0 +1,35 @@
+
+.creator div div {
+    font-size: 30px;
+    height: 35px;
+    text-shadow: 1px 1px 1px #8BDFE2;
+    background: #faf8ed;
+    border: 2px rgba(0, 0, 0, 0.7) solid;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.creator #student {
+    float: left;
+    width: 40%;
+}
+
+.creator #group{
+    float: left;
+    width: 30%;
+}
+
+.creator #variant{
+
+    float: left;
+    width: 30%;
+}
+.creator div{
+    margin-top: 0.5%;
+    background:rgb(234, 201, 226);
+}
+
+
+

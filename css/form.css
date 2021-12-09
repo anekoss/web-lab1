@@ -1,0 +1,85 @@
+#form{
+    float: left;
+    margin-top: -32%;
+    margin-left: 1%;
+    margin-right: -10%;
+    text-align: left;
+    width: 50%;
+    font-size: 20px;
+}
+#parameter{
+    margin-left: 2%;
+}
+
+#x input[type="button"]{
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    color: #5F4393;
+    font-weight: bold;
+    background: #8BDFE2;
+}
+
+
+#y input[type="text"]{
+    border: 2px solid;
+    background: #8BDFE2;
+    margin: 0 1%;
+    color:#5F4393;
+    height: 65px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.R option{
+    background: #8BDFE2;
+    color:#5F4393;
+    font-weight: bold;
+}
+
+.R{
+    border: 2px solid;
+    background: #8BDFE2;
+    height: 40px;
+    font-size: 15px;
+    color: #5F4393;
+    font-weight: bold;
+}
+#button input{
+    border: 2px solid #5F4393;
+    font-weight: bold;
+    background: #faf8ed;
+    height: 30px;
+    width: 170px;
+    color: #5F4393;
+}
+
+
+.elements input:hover{
+    box-shadow: 0 0 5px 2px #5F4393;
+}
+#r select:hover{
+    box-shadow: 0 0 5px 2px #5F4393;
+}
+
+#result-table {
+    text-align:center;
+    background: #faf8ed;
+    margin-top: 30%;
+    font-family: "Courier New", monospace;
+    width: 120%;
+    border-collapse: collapse;
+}
+th {
+    border: 2px solid;
+}
+
+td {
+    text-align: center;
+    border: 2px solid;
+}
+
+#form #parameter #x input[type="button"].active {
+    background-color: #ba6fc7;
+}
